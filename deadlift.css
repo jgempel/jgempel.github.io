@@ -1,0 +1,78 @@
+.logo{
+	content:url("../englishProject/website_logo.jpg");
+	width: 70px;
+	height: 50px;
+	padding-left: 1px;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+img {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+}
+.nestOne {
+  padding-left: 15px;	
+}
+.nestTwo {
+  padding-left: 15px;
+}
+
+.row.content {height: 2025px}
+.active {
+	font-size: 17px;
+}
+.warningMessage {
+	color: #FFA07A;
+	padding-left: 15px;
+	padding-bottom: 14px;
+}
+ul {
+	format: circle;
+	font-size: 18px;
+}
+.sidenav {
+  padding-top: 20px;
+  background-color: #242424;
+  height: 298%;
+}
+
+h1{
+	color: white;
+}
+h3{
+	color: white;
+}
+p{
+	color: white;
+	font-size: 18px;
+}
+li{
+	padding-left: 0px;
+	padding-bottom: 14px;
+	color: white;
+	font-size: 18px;
+}
+
+label{
+	color: white;
+	font-size: 15.5px;
+}
+footer {
+  background-color: #242424;
+  color: white;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+	height: auto;
+	padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
